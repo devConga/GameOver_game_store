@@ -1,0 +1,67 @@
+.titulo_searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3vh 0;
+    padding: 0 2.91vw 0 2.91vw;
+    height: 8.33vh;
+    overflow: hidden;
+}
+
+.texto_titulo_productos{
+    font-family:'Inconsolata';
+    font-size: 3.05vh;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.caja_productos{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3vh 1.10vw;
+    row-gap: 2.64vh;
+    column-gap: 1.56vw;
+}
+
+.caja_juego{
+    background-color: #191E29;
+    width: 14.83vw;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2.08vh;
+    
+  }
+  
+  .caja_juego img{
+      width: 100%;
+      height: 80%;
+      border-radius: 2.08vh 2.08vh 0 0;
+      object-fit: cover;
+      flex-shrink: 0;
+      place-self: top;
+      
+      vertical-align: top;
+  }
+
+  .caja_texto_juego{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.79vw;
+    height: 20%;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .texto_juego{
+    font-family: 'Inconsolata';
+    color:#FFFFFF;
+    font-size: 1.66vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+  }

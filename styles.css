@@ -8,10 +8,11 @@
     src: url(Fonts/Inter.ttf);
 }
 html{
-    height: 100%;
+    height: relative;
 }
 
 body{
+    position: relative;
     min-height: 100vh;
     max-height: fit-content;
     margin: 0;
@@ -21,11 +22,12 @@ body{
 }
 
 footer{
-    position:absolute;
+    position: relative;
     bottom:0;
     width:100%;
     height:9.72vh;   /* Height of the footer */
     background-color: #0D6E5A;
+    
 }
 
 .headbar{
@@ -91,6 +93,7 @@ footer{
     justify-content: center;
 }
 
+
 .info_user{
     display: flex;
     flex-direction: column;
@@ -101,19 +104,18 @@ footer{
 }
 
 .profile_photo{
-    height: 3.25vw;
-    width: 3.25.vw;
+    width: 5vh;
+    height:5vh;
     flex-shrink: 0;
-    border-radius: 1.625vw;
+    border-radius: 2.5vh;
     border: 1px solid #01C38D;
     box-shadow: #03B384 1px 0 15px;
 }
 
 .shopping_cart_icon{
-    height: 1.95vw;
-    width: 1.95vw;
+    height: 4vh;
+    width: 4vh;
     flex-shrink: 0;
-    /*background: url(Images/carrito.png), lightgray 50% / cover no-repeat;*/
     filter:drop-shadow(1px 0 5px #03B384);
 }
 
@@ -142,15 +144,17 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: auto;
+    place-content: center;
+    padding-left: 1.15vw;
 }
 
 .gamebox{
   color: #FFFFFF;
   background-color: #191E29;
-  max-width: 41.48vh;
+  width: 49.5vh;
   height: 23.3vh;
-  margin: 0 auto;
+  margin: 0 1.32vw 1.32vw 0;
   display: flex;
   flex-wrap: wrap;
   border-radius: 2.08vh;
@@ -187,6 +191,5 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    padding-right: 2.361vh;
 }
 

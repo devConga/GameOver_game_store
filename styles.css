@@ -16,14 +16,15 @@ body{
     min-height: 100vh;
     max-height: fit-content;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 .fondo{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
 }
 
 footer{
-    position: relative;
-    bottom:0;
+    margin-top: auto;
     width:100%;
     height:9.72vh;   /* Height of the footer */
     background-color: #0D6E5A;

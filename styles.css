@@ -7,32 +7,18 @@
     font-family: 'Inter';
     src: url(Fonts/Inter.ttf);
 }
-
 html{
-    height: 100%;
+    height: auto;
 }
+
 body{
+    min-height: 100vh;
+    max-height: fit-content;
     margin: 0;
 }
 .fondo{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
 }
-
-
-
-/* .headbar{
-    display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-gap: 24px;
-    height: 8.33vh;
-    place-items: center left;
-    place-content: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #FFFFFF;
-    font-size: 30px;
-    background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
-    overflow: hidden;
-} */
 
 .headbar{
     display: flex;
@@ -64,7 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 33.33vh;
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
     background: #00041F;
 }
 
@@ -144,7 +130,15 @@ body{
     text-align: center;
 }
 
+.mas_vendidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
 .gamebox{
+  color: #FFFFFF;
   background-color: #191E29;
   max-width: 41.48vh;
   height: 23.3vh;
@@ -152,6 +146,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   border-radius: 2.08vh;
+  justify-content: space-between;
   
 }
 
@@ -163,7 +158,19 @@ body{
     object-fit: cover;
     flex-shrink: 0;
     place-self: top;
-    
     vertical-align: top;
+}
+
+.gamebox_text{
+    font-family: 'Inter';
+    padding-left: 1.7vh;
+    font-size: 1.94vh;
+}
+
+.gamebox_price{
+    font-family: 'Inter';
+    text-align: right;
+    font-size: 1.94vh;
+    padding: 0 1.7vh 0 0;
 }
 

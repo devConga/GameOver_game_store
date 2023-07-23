@@ -8,7 +8,7 @@
     src: url(Fonts/Inter.ttf);
 }
 html{
-    height: auto;
+    height: 100%;
 }
 
 body{
@@ -18,6 +18,14 @@ body{
 }
 .fondo{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:9.72vh;   /* Height of the footer */
+    background-color: #0D6E5A;
 }
 
 .headbar{
@@ -172,5 +180,13 @@ body{
     text-align: right;
     font-size: 1.94vh;
     padding: 0 1.7vh 0 0;
+}
+
+#footer{
+    font-size: 2.77vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 2.361vh;
 }
 

@@ -9,7 +9,7 @@
 }
 
 html{
-    min-height: 100%;
+    height: 100%;
 }
 body{
     margin: 0;
@@ -17,6 +17,8 @@ body{
 .fondo{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
 }
+
+
 
 /* .headbar{
     display: grid;
@@ -62,10 +64,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 33.33vh;
+    margin-bottom: 4vh;
     background: #00041F;
 }
 
-.texto_normal{
+.texto_headbar{
     color: #FFF;
     text-shadow: #03B384 1px 0 15px;
     font-family: 'Inconsolata';
@@ -127,3 +130,40 @@ body{
 .fuente_inter{
     font-family: 'Inter';
 }
+
+.texto_normal{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 2.77vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+
+.center{
+    text-align: center;
+}
+
+.gamebox{
+  background-color: #191E29;
+  max-width: 41.48vh;
+  height: 23.3vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2.08vh;
+  
+}
+
+.gamebox img{
+    width: 100%;
+    height: 100%;
+    max-height: 18.47vh;
+    border-radius: 2.08vh 2.08vh 0 0;
+    object-fit: cover;
+    flex-shrink: 0;
+    place-self: top;
+    
+    vertical-align: top;
+}
+

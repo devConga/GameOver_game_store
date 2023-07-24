@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'Inconsolata';
     src: url(Fonts/Inconsolata.ttf);
@@ -127,3 +128,201 @@ body{
 .fuente_inter{
     font-family: 'Inter';
 }
+=======
+@font-face {
+    font-family: 'Inconsolata';
+    src: url(Fonts/Inconsolata.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(Fonts/Inter.ttf);
+}
+html{
+    height: relative;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.fondo{
+    background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
+}
+
+footer{
+    margin-top: auto;
+    width:100%;
+    height:9.72vh;   /* Height of the footer */
+    background-color: #0D6E5A;
+    
+}
+
+.headbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.91vw 0 2.91vw;
+    height: 8.33vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 2.34vh;
+    background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    height: 4.12vh;
+    background: #203441;
+}
+
+.presentation_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 33.33vh;
+    margin-bottom: 3vh;
+    background: #00041F;
+}
+
+.texto_headbar{
+    color: #FFF;
+    text-shadow: #03B384 1px 0 15px;
+    font-family: 'Inconsolata';
+    font-size: 2.77vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+
+.texto_presentacion{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 8.33vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 60px */
+    letter-spacing: 1.03vw;
+    opacity: 0.5;
+}
+
+.user_photo_cart{
+    display:flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info_user{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.66vh;
+    row-gap: 0.5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_photo{
+    width: 5vh;
+    height:5vh;
+    flex-shrink: 0;
+    border-radius: 2.5vh;
+    border: 1px solid #01C38D;
+    box-shadow: #03B384 1px 0 15px;
+}
+
+.shopping_cart_icon{
+    height: 4vh;
+    width: 4vh;
+    flex-shrink: 0;
+    filter:drop-shadow(1px 0 5px #03B384);
+}
+
+.texto_verde{
+    color: #05AE81;
+}
+
+.fuente_inter{
+    font-family: 'Inter';
+}
+
+.texto_normal{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 2.77vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+
+.center{
+    text-align: center;
+}
+
+.mas_vendidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    place-content: center;
+    padding-left: 1.15vw;
+}
+
+.gamebox{
+  color: #FFFFFF;
+  background-color: #191E29;
+  width: 49.5vh;
+  height: 23.3vh;
+  margin: 0 1.32vw 1.32vw 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2.08vh;
+  justify-content: space-between;
+  
+}
+
+.gamebox img{
+    width: 100%;
+    height: 100%;
+    max-height: 18.47vh;
+    border-radius: 2.08vh 2.08vh 0 0;
+    object-fit: cover;
+    flex-shrink: 0;
+    place-self: top;
+    vertical-align: top;
+}
+
+.gamebox_text{
+    font-family: 'Inter';
+    padding-left: 1.7vh;
+    font-size: 1.94vh;
+}
+
+.gamebox_price{
+    font-family: 'Inter';
+    text-align: right;
+    font-size: 1.94vh;
+    padding: 0 1.7vh 0 0;
+}
+
+#footer{
+    font-size: 2.77vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+>>>>>>> 40c39b7481ddae6715e8fe887e33145529dc3bba

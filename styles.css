@@ -7,6 +7,11 @@
     font-family: 'Inter';
     src: url(Fonts/Inter.ttf);
 }
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url(Fonts/Inter-ExtraBold.ttf);
+}
 html{
     font-size: 62.5%;
 }
@@ -154,9 +159,10 @@ footer{
 .gamebox{
   color: #FFFFFF;
   background-color: #191E29;
-  width: 41.66rem;
-  max-width: 45.875rem;
-  height: 25rem;
+  width: 29.75rem;/*41.66rem*/
+  min-width: 29.75rem;
+  max-width: 23.335vw;/*max-width: 23.335vw*/
+  height: 16.8rem;
   margin: 0 1.7rem 1.7rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -169,9 +175,9 @@ footer{
 .gamebox img{
     width: 100%;
     height: 100%;
-    max-height: 20rem;
+    max-height: 13.33rem;
     border-radius: 1.5rem 1.5rem 0 0;
-    object-fit: cover;
+    object-fit: fill;
     flex-shrink: 1;
     flex-grow: 1;
     place-self: top;
@@ -179,18 +185,18 @@ footer{
 }
 
 .gamebox_text{
-    font-family: 'Inter';
-    padding-left: 1.3rem;
-    font-size: 2rem;
+    font-family: 'Inter-ExtraBold';
+    padding-left: 1.5rem;
+    font-size: 1.4rem;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
 .gamebox_price{
-    font-family: 'Inter';
+    font-family: 'Inter-ExtraBold';
     text-align: right;
-    font-size: 2rem;
-    padding: 0 1.3rem 0 0;
+    font-size: 1.4rem;
+    padding: 0 1.5rem 0 0;
     flex-grow: 1;
     flex-shrink: 1;
 }

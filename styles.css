@@ -8,7 +8,7 @@
     src: url(Fonts/Inter.ttf);
 }
 html{
-    height: relative;
+    font-size: 62.5%;
 }
 
 body{
@@ -26,7 +26,7 @@ body{
 footer{
     margin-top: auto;
     width:100%;
-    height:9.72vh;   /* Height of the footer */
+    height:7rem;   /* Height of the footer */
     background-color: #0D6E5A;
     
 }
@@ -36,11 +36,11 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2.91vw 0 2.91vw;
-    height: 8.33vh;
+    padding: 0 2.1rem 0 2.1rem;
+    height: 6rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #FFFFFF;
-    font-size: 2.34vh;
+    font-size: 2rem;
     background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
     overflow: hidden;
 }
@@ -48,10 +48,10 @@ footer{
 .navbar{
     display: flex;
     flex-direction: row;
-    column-gap: 3vw;
+    column-gap: 2.4rem;
     justify-content: center;
     align-items: center;
-    height: 4.12vh;
+    height: 3rem;
     background: #203441;
 }
 
@@ -60,8 +60,8 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 33.33vh;
-    margin-bottom: 3vh;
+    height: 24rem;
+    margin-bottom: 2rem;
     background: #00041F;
 }
 
@@ -69,7 +69,7 @@ footer{
     color: #FFF;
     text-shadow: #03B384 1px 0 15px;
     font-family: 'Inconsolata';
-    font-size: 2.77vh;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 20px */
@@ -78,7 +78,7 @@ footer{
 .texto_presentacion{
     color: #FFF;
     font-family: 'Inter';
-    font-size: 8.33vh;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 800;
     line-height: 100%; /* 60px */
@@ -89,7 +89,7 @@ footer{
 .user_photo_cart{
     display:flex;
     flex-direction: row;
-    column-gap: 1vw;
+    column-gap: 1.7rem;
     align-items: center;
     justify-content: center;
 }
@@ -98,24 +98,24 @@ footer{
 .info_user{
     display: flex;
     flex-direction: column;
-    font-size: 1.66vh;
+    font-size: 1.2rem;
     row-gap: 0.5vh;
     align-items: center;
     justify-content: center;
 }
 
 .profile_photo{
-    width: 5vh;
-    height:5vh;
+    width: 4.5rem;
+    height:4.5rem;
     flex-shrink: 0;
-    border-radius: 2.5vh;
-    border: 1px solid #01C38D;
-    box-shadow: #03B384 1px 0 15px;
+    border-radius: 2.25rem;
+    border: 0.2rem solid #01C38D;
+    box-shadow: #03B384 0.1rem 0 2rem;
 }
 
 .shopping_cart_icon{
-    height: 4vh;
-    width: 4vh;
+    height: 2.5rem;
+    width: 2.5rem;
     flex-shrink: 0;
     filter:drop-shadow(1px 0 5px #03B384);
 }
@@ -131,7 +131,7 @@ footer{
 .texto_normal{
     color: #FFF;
     font-family: 'Inter';
-    font-size: 2.77vh;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 20px */
@@ -147,48 +147,56 @@ footer{
     flex-wrap: wrap;
     overflow: auto;
     place-content: center;
-    padding-left: 1.15vw;
+    padding-left: 1.7rem;
+    padding-right: 0rem;
 }
 
 .gamebox{
   color: #FFFFFF;
   background-color: #191E29;
-  width: 49.5vh;
-  height: 23.3vh;
-  margin: 0 1.32vw 1.32vw 0;
+  width: 41.66rem;
+  max-width: 45.875rem;
+  height: 25rem;
+  margin: 0 1.7rem 1.7rem 0;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 2.08vh;
-  justify-content: space-between;
+  border-radius: 1.5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
   
 }
 
 .gamebox img{
     width: 100%;
     height: 100%;
-    max-height: 18.47vh;
-    border-radius: 2.08vh 2.08vh 0 0;
+    max-height: 20rem;
+    border-radius: 1.5rem 1.5rem 0 0;
     object-fit: cover;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
     place-self: top;
     vertical-align: top;
 }
 
 .gamebox_text{
     font-family: 'Inter';
-    padding-left: 1.7vh;
-    font-size: 1.94vh;
+    padding-left: 1.3rem;
+    font-size: 2rem;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .gamebox_price{
     font-family: 'Inter';
     text-align: right;
-    font-size: 1.94vh;
-    padding: 0 1.7vh 0 0;
+    font-size: 2rem;
+    padding: 0 1.3rem 0 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 #footer{
-    font-size: 2.77vh;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;

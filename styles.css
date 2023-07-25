@@ -157,7 +157,7 @@ footer{
   justify-content: space-between;
   flex-grow: 0;
   flex-shrink: 0;
-
+  box-shadow: 0 0 15px #000;
 }
 
 .gamebox img{

@@ -83,22 +83,38 @@
     text-decoration: none;
     color: #564747;
     font-family: Inconsolata;
-    font-size: 1.39vh;
+    font-size: 1.50vh;
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 10px */
-    flex-grow: 2;
     text-align: center;
-    border: 2px normal black;
+    width: 25%;
+    align-items: center;
   }
 
   .busqueda{
-    
+    color: #564747;
+    font-family: 'Inconsolata';
+    font-size: 1.66vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 10px */
+    text-align: left;
+    border:none;
+    align-items: center;
+  }
+
+  .busqueda:focus{
+    outline: none;
   }
   
   .lupa{
+    display: flex;
+    justify-content: center;
     border-radius: 0 1.11vh 1.11vh 0;
     background: #14C392;
     height: 100%;
-    flex-grow: 1;
+    width: 15%;
+    align-items: center;
+
   }

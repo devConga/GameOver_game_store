@@ -17,18 +17,24 @@
           <div class="texto_headbar" style="font-size: 1.66vh;">Administrador</div>
         </div>
         <img src="Images/default_pfp.jpg" class="profile_photo">
-        <img src="Images/carrito.png" class="shopping_cart_icon"></div>
+        <a href="carrito.html"><img src="Images/carrito.png" class="shopping_cart_icon"></a>
+      </div>
       </div>
     </div>
 
     <div class="navbar">
-      <div class="texto_headbar">Inicio</div>
-      <div class="texto_headbar texto_verde">Productos</div>
-      <div class="texto_headbar">Balances</div>
+      <a class="texto_headbar" href="index.html" style="text-decoration: none;">Inicio</a>
+      <a class="texto_headbar texto_verde" href="productos.html" style="text-decoration: none;">Productos</a>
+      <a class="texto_headbar" href="#" style="text-decoration: none;">Balances</a>
     </div>
 
     <div class="titulo_searchbar">
         <div class="texto_titulo_productos">Productos</div>
+        <div class="barra_busqueda">
+          <a class="ordenar" href="#"><img src="Images/flecha_abajo.png" style="height: 1vh; width: 1vh; margin-right: 1%;">Mas caro</a>
+          <input class="busqueda" id="search" type="search" placeholder="Buscar" aria-label="Search">
+          <a class="lupa" id="buscar" href="#"><img src="Images/lupa.png" style="height: 60%; width: 60%;"></a>
+        </div>
     </div>
 
     <div class="caja_productos">
@@ -115,8 +121,11 @@
 
     </div>
 
-
     
   </body>
+
+  <footer id="footer">
+    <div style="padding-right: 2.361vh;">💀</div>
+  </footer>
 
 </html>

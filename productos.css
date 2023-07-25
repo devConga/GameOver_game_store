@@ -19,21 +19,23 @@
 
 .caja_productos{
     display: flex;
-    flex-flow: row wrap;
-    margin: 3vh 1.10vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
     row-gap: 2.64vh;
-    column-gap: 1.56vw;
+    margin: 3vh 1.10vw;
+    column-gap: 2.64vh;
 }
 
 .caja_juego{
     background-color: #191E29;
-    width: 14.83vw;
+    width: 32vh;
     height: 25vh;
     display: flex;
     flex-wrap: wrap;
     border-radius: 2.08vh;
-    
-  }
+    }
   
   .caja_juego img{
       width: 100%;
@@ -64,4 +66,55 @@
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
+  }
+
+  .barra_busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4.5vh;
+    width: 35.6vh;
+    border-radius: 1.11vh;
+    background: #FFFFFF;
+    align-items: center;
+  }
+
+  .ordenar{
+    text-decoration: none;
+    color: #564747;
+    font-family: Inconsolata;
+    font-size: 1.50vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 10px */
+    text-align: center;
+    width: 25%;
+    align-items: center;
+  }
+
+  .busqueda{
+    color: #564747;
+    font-family: 'Inconsolata';
+    font-size: 1.66vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 10px */
+    text-align: left;
+    border:none;
+    align-items: center;
+  }
+
+  .busqueda:focus{
+    outline: none;
+  }
+  
+  .lupa{
+    display: flex;
+    justify-content: center;
+    border-radius: 0 1.11vh 1.11vh 0;
+    background: #14C392;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+
   }

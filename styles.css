@@ -28,7 +28,8 @@ body{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
 }
 footer{
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
     width:100%;
     height:9.72vh;   /* Height of the footer */
     background-color: #0D6E5A;
@@ -143,6 +144,7 @@ footer{
     place-content: center;
     padding-left: 1.18vw;
     padding-right: 1.18vw;
+    margin-bottom: 18.26vh;
 }
 
 .gamebox{

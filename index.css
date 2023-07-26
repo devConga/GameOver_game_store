@@ -15,82 +15,6 @@ html{
     height: relative;
 }
 
-.box{
-    border: #191E29;
-    margin-bottom: 5vh;
-    margin-left: 2vh;
-}
-
-.fecha{
-    font-family: 'Inconsolata-ExtraBold';
-    color: #05AE81;
-    background-color: #191E29;
-    width: 30vh;
-    height: 4vh;
-    border-radius: 1vh;
-    margin-bottom: 2vh;
-    text-align: center;
-    padding-top: 0.7vh;
-}
-
-.datos_balance{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    place-content: end;
-}
-.caja_datos{
-    color: #FFF;
-    background-color: #191E29;
-    width: 160px;
-    height: 80px;
-    border-radius: 8px;
-    font-family: Inconsolata;
-    text-align: center;
-    font-size: 3.05vh;
-    margin: 2.5vh;
-    font-weight: 800;
-    line-height: 12vh;
-}
-
-table{
-    background: #191E29;
-    color: #FFF;
-    table-layout: fixed;
-    border-radius: 1.5vh;
-    width: 200vh;
-    height: 12vh;
-    box-shadow: 0vh 1vh 1vh 0vh rgba(0, 0, 0, 0.25);
-}
-
-
-th{
-    text-align: left;
-    border-bottom: solid 0.5vh #FFF;
-}
-
-td{
-    border-bottom: solid 0.5vh #FFF;
-}
-
-.texto_cabeza{
-    color: #05AE81;
-    font-family: 'Inconsolata';
-    font-size: 2.2vh;
-    font-style: normal;
-    font-weight: 600;
-    padding-left: 2vh;
-}
-
-.texto_cuerpo{
-    color: #FFF;
-    font-family: 'Inconsolata';
-    font-size: 2.2vh;
-    font-style: normal;
-    font-weight: 600;
-    padding-left: 2vh;
-}
-
 body{
     position: relative;
     min-height: 100vh;
@@ -128,7 +52,7 @@ footer{
 .navbar{
     display: flex;
     flex-direction: row;
-    column-gap: 3vw;
+    column-gap: 3.5vh;
     justify-content: center;
     align-items: center;
     height: 4.12vh;
@@ -262,9 +186,4 @@ footer{
     padding: 0 1.7vh 0 0;
 }
 
-#footer{
-    font-size: 2.77vh;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
+

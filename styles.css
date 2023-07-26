@@ -52,7 +52,7 @@ footer{
 .navbar{
     display: flex;
     flex-direction: row;
-    column-gap: 3vw;
+    column-gap: 3.5vh;
     justify-content: center;
     align-items: center;
     height: 4.12vh;

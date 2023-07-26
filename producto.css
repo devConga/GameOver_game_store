@@ -1,15 +1,18 @@
 .juegos_relacionados{
     display:flex;
-    flex-direction: column;
-    width: 80vh;
+    flex-direction: row;
     max-width: 80vh;
     height: 65vh;
-    margin: 7.5vh 21vh 9.72vh auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7.5vh auto 9.72vh auto;
+    overflow: auto;
+    
 }
 
 .right-align{
     text-align: right;
-    margin-right: 6.8vh;
+    margin-right: 0vh;
     margin-bottom: 2vh;
 }
 .container-title{

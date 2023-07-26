@@ -1,208 +1,3 @@
-@font-face {
-    font-family: 'Inconsolata';
-    src: url(Fonts/Inconsolata.ttf);
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url(Fonts/Inter.ttf);
-}
-html{
-    font-size: 62.5%;
-}
-
-body{
-    position: relative;
-    min-height: 100vh;
-    max-height: fit-content;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-.fondo{
-    background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
-}
-
-footer{
-    margin-top: auto;
-    width:100%;
-    height:7rem;   /* Height of the footer */
-    background-color: #0D6E5A;
-    
-}
-
-.headbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2.1rem 0 2.1rem;
-    height: 6rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #FFFFFF;
-    font-size: 2rem;
-    background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
-    overflow: hidden;
-}
-
-.navbar{
-    display: flex;
-    flex-direction: row;
-    column-gap: 2.4rem;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-    background: #203441;
-}
-
-.presentation_bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 24rem;
-    margin-bottom: 2rem;
-    background: #00041F;
-}
-
-.texto_headbar{
-    color: #FFF;
-    text-shadow: #03B384 1px 0 15px;
-    font-family: 'Inconsolata';
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%; /* 20px */
-}
-
-.texto_presentacion{
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 6rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%; /* 60px */
-    letter-spacing: 1.03vw;
-    opacity: 0.5;
-}
-
-.user_photo_cart{
-    display:flex;
-    flex-direction: row;
-    column-gap: 1.7rem;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.info_user{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    row-gap: 0.5vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile_photo{
-    width: 4.5rem;
-    height:4.5rem;
-    flex-shrink: 0;
-    border-radius: 2.25rem;
-    border: 0.2rem solid #01C38D;
-    box-shadow: #03B384 0.1rem 0 2rem;
-}
-
-.shopping_cart_icon{
-    height: 2.5rem;
-    width: 2.5rem;
-    flex-shrink: 0;
-    filter:drop-shadow(1px 0 5px #03B384);
-}
-
-.texto_verde{
-    color: #05AE81;
-}
-
-.fuente_inter{
-    font-family: 'Inter';
-}
-
-.texto_normal{
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%; /* 20px */
-}
-
-.center{
-    text-align: center;
-}
-
-.mas_vendidos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    overflow: auto;
-    place-content: center;
-    padding-left: 1.7rem;
-    padding-right: 0rem;
-}
-
-.gamebox{
-  color: #FFFFFF;
-  background-color: #191E29;
-  width: 41.66rem;
-  max-width: 45.875rem;
-  height: 25rem;
-  margin: 0 1.7rem 1.7rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 1.5rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  
-}
-
-.gamebox img{
-    width: 100%;
-    height: 100%;
-    max-height: 20rem;
-    border-radius: 1.5rem 1.5rem 0 0;
-    object-fit: cover;
-    flex-shrink: 1;
-    flex-grow: 1;
-    place-self: top;
-    vertical-align: top;
-}
-
-.gamebox_text{
-    font-family: 'Inter';
-    padding-left: 1.3rem;
-    font-size: 2rem;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-.gamebox_price{
-    font-family: 'Inter';
-    text-align: right;
-    font-size: 2rem;
-    padding: 0 1.3rem 0 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-#footer{
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-
 .texto_titulo{
     margin-left: 2.77%;
     margin-top: 2%;
@@ -217,22 +12,23 @@ footer{
 .cartgamebox{
     color: #FFFFFF;
     background-color: #191E29;
-    width: 100rem;
-    height: 11rem;
-    margin: 0 1.7rem 1.7rem 0;
+    width: 140vh;
+    height: 14.5vh;
+    margin: 0 2vh 2vh 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border-radius: 1.5rem;
+    border-radius: 1.6vh;
     flex-grow: 1;
     flex-shrink: 1;
     position: relative;
+    box-shadow: 0 0 1vh #000;
 }
 
 .cartgamebox img{
-    width: 18rem;
+    width: 25vh;
     height: 100%;
-    border-radius: 1.5rem 0 0 1.5rem;
+    border-radius: 1.6vh 0 0 1.6vh;
     object-fit: cover;
     flex-shrink: 0;
     place-self: flex-start;
@@ -241,30 +37,30 @@ footer{
 .titulo_cartgame{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 2rem;
+    font-size: 2.22vh;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */
-    margin-left: 3.5rem;
-    margin-top: 0.5rem;
+    margin-left: 6vh;
+    margin-top: 0.75vh;
 }
 
 .descripcion_cartgame{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 1.25rem;
+    font-size: 1.80vh;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */
-    margin-left: 3.5rem;
-    margin-top: 2rem;
+    margin-left: 6vh;
+    margin-top: 2vh;
 }
 
 .glowbox{
-    width: 7.5rem;
-    height: 5rem;
+    width: 8.9vh;
+    height: 5vh;
     position: absolute;
-    right: 12.5rem;
+    right: 17vh;
     align-self: center;
     background-color: #BFE8DD; 
     box-shadow: 0 0 7px 2px #1adca8;
@@ -275,20 +71,19 @@ footer{
     color: #000;
     font-family: 'Inconsolata';
     font-size: 2.77vh;
-    margin-left: 1rem;
+    margin-left: 1vh;
     align-self: center;
 }
 
 .precio_cartgame{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 2.5rem;
+    font-size: 3.5vh;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */
     position: absolute;
-    right: 5rem;
-    
+    right: 6vh;
     align-self: center;
 }
 
@@ -297,9 +92,10 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     overflow: auto;
-    padding-left: 1.7rem;
-    padding-right: 0rem;
-    margin-bottom: 1rem;
+    margin-left: 5vh;
+    margin-right: 0vh;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
 }
 
 .nombredescrip_juegocart{
@@ -313,43 +109,52 @@ footer{
 .borrar_juegocart{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 1.5rem;
+    font-size: 2.25vh;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */
     margin-left: auto;
-    margin-right: 1.5rem;
-    margin-top: 1.5rem;
+    margin-right: 1.5vh;
+    margin-top: 1.5vh;
 }
 
 .carrito_cajero{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    overflow: auto;
     background-color: #191E29;
-    width: 45rem;
-    height: 23.75rem;
-    border-radius: 1.5rem;
+    width: 48.5vh;
+    height: 31vh;
+    border-radius: 1.6vh;
+    box-shadow: 0 0 1vh #000;
+    margin: 1vh 0 1vh 0;
 }
 
 .bodycarrito{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: auto;
-    margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 .caja_total{
     background-color:#03B384;
-    border-radius: 1.5rem 0 0 0;
-    height: 4rem;
+    border-radius: 1.6vh 1.6vh 0 0;
+    height: 6vh;
     display: flex;
 }
 .caja_comprar{
     background-color:#03B384;
-    border-radius: 0 0 0 0;
-    height: 4rem;
+    border-radius: 0 0 1.6vh 1.6vh;
+    height: 6vh;
     display: flex;
+}
+
+.container_noelementos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 140vh;
+    margin-right: 2vh;
 }

@@ -2,6 +2,17 @@
     --viewport-height:100vh;
 }
 
+@media (min-width: 148.5vh){
+    body{
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 148.5vh){
+    body{
+        padding-bottom: 18.26vh;
+    }
+}
+
 @font-face {
     font-family: 'Inter-ExtraBold';
     src: url(Fonts/Inter-ExtraBold.ttf);

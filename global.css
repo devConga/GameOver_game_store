@@ -1,3 +1,7 @@
+:root{
+    --viewport-height:100vh;
+}
+
 @font-face {
     font-family: 'Inter-ExtraBold';
     src: url(Fonts/Inter-ExtraBold.ttf);
@@ -20,7 +24,7 @@ html{
 
 body{
     position: relative;
-    min-height: 100vh;
+    min-height: var(--viewport-height);
     min-width: 100%;
     max-height: fit-content;
     margin: 0;
@@ -39,7 +43,7 @@ body{
     padding: 0 2.91vw 0 2.91vw;
     height: 8.33vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #FFFFFF;
+    color: white;
     font-size: 2.34vh;
     background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
     overflow: hidden;
@@ -66,7 +70,7 @@ body{
 }
 
 .texto_headbar{
-    color: #FFF;
+    color: white;
     text-shadow: #03B384 1px 0 15px;
     font-family: 'Inconsolata';
     font-size: 2.77vh;
@@ -75,7 +79,7 @@ body{
     line-height: 100%; /* 20px */
 }
 .texto_presentacion{
-    color: #FFF;
+    color: white;
     font-family: 'Inter';
     font-size: 8.33vh;
     font-style: normal;
@@ -122,7 +126,7 @@ body{
     font-family: 'Inter';
 }
 .texto_normal{
-    color: #FFF;
+    color: white;
     font-family: 'Inter';
     font-size: 2.77vh;
     font-style: normal;
@@ -139,7 +143,6 @@ footer{
     width:100%;
     height:9.72vh;   /* Height of the footer */
     background-color: #0D6E5A;
-
 }
 
 #footer{

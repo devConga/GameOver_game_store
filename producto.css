@@ -1,18 +1,106 @@
+.producto_y_relacionado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    gap: 2.5vh;
+}
+
+.producto_grande{
+    background-color: #191E29;
+    height: 58vh;
+    width: 72vh;
+    max-width: 75vh;
+    align-self: center;
+    border-radius: 2.08vh;
+}
+
+.producto_grande img{
+    height: 32vh;
+    width: 100%;
+    border-radius: 2.08vh 2.08vh 0 0;
+    object-fit: fill;
+    flex-shrink: 0;
+    vertical-align: top;
+}
+
+.datos_productogrande{
+    display: flex;
+    flex-direction: column;
+}
+
+.precio_productogrande{
+display: flex;
+background-color: black;
+font-size: 6vh;
+color: white;
+width: min-content;
+height: 7vh;
+font-family: 'Inconsolata';
+position: relative;
+top: -28vh;
+left: -3vh;
+border-radius: 1.08vh;
+align-items: center;
+justify-content: center;
+}
+
+.nombre_productogrande{
+font-family: 'Inconsolata';
+color: white;
+font-size: 3.5vh;
+text-shadow: #03B384 1px 0 15px;
+margin-top: -5vh;
+margin-left: 2vh
+}
+
+.descripcion_productogrande{
+    font-family: 'Inconsolata';
+    color: white;
+    font-size: 2vh;
+    text-shadow: #03B384 1px 0 15px;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    line-height: 2.5vh;
+
+}
+
+.desarrolladora_productogrande{
+    font-family: 'Inconsolata';
+    color: white;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    line-height: 2.5vh;
+    font-weight: 0.5vh;
+
+}
+
+.btn_carritoproductogrande{
+display: flex;
+flex-direction: row;
+margin-left: 63vh;
+margin-top: -4.5vh;
+}
+
 .juegos_relacionados{
     display:flex;
     flex-direction: row;
-    max-width: 80vh;
+    overflow: auto;
+    max-width: 70vh;
     height: 65vh;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 7.5vh auto 9.72vh auto;
-    overflow: auto;
+    /*margin: 7.5vh auto 9.72vh -3vh;*/
+    
     
 }
 
 .right-align{
-    text-align: right;
-    margin-right: 0vh;
+    margin-left: 40vh;
     margin-bottom: 2vh;
 }
 .container-title{

@@ -37,14 +37,26 @@
     flex-direction: row;
     flex-wrap: wrap;
     place-content: end;
+    max-width:198vh;
 }
+
+@media screen and (max-width:821px){
+    .datos_balance{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        place-content: center;
+        max-width:198vh;
+    }
+}
+
 .caja_datos{
     display: flex;
     color: #FFF;
     background-color: #191E29;
     width: 20vh;
     height: 10vh;
-    border-radius: 1.6vh;
+    border-radius: 1.3vh;
     font-family: Inconsolata;
     align-items: center;
     justify-content: center;
@@ -66,12 +78,11 @@ table{
 
 th{
     text-align: left;
-    border-bottom: solid 0.35vh #30353e;
     vertical-align: middle;
 }
 
 td{
-    border-bottom: solid 0.35vh #30353e;
+    border-top: solid 0.35vh #30353e;
     text-align: left;
     vertical-align: middle;
 }

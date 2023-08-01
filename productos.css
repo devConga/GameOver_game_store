@@ -24,7 +24,7 @@
     overflow: hidden;
     justify-content: center;
     row-gap: 2.64vh;
-    margin: 3vh 1.10vw;
+    margin: 3vh 1.10vw 0vh 1.10vw;
     column-gap: 2.64vh;
 }
 

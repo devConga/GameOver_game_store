@@ -2,7 +2,7 @@
     --viewport-height:100vh;
 }
 
-@media (min-width: 148.5vh){
+/*@media (min-width: 148.5vh){
     body{
         padding-bottom: 0;
     }
@@ -11,7 +11,7 @@
     body{
         padding-bottom: 18.26vh;
     }
-}
+}*/
 
 @font-face {
     font-family: 'Inter-ExtraBold';
@@ -36,14 +36,16 @@ html{
 body{
     position: relative;
     min-height: var(--viewport-height);
-    min-width: 100%;
-    max-height: fit-content;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 .fondo{
     background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
+}
+
+.main{
+    padding-bottom: 15vh;
 }
 
 .headbar{
@@ -146,6 +148,7 @@ body{
 }
 .center{
     text-align: center;
+    place-content: center;
 }
 
 footer{

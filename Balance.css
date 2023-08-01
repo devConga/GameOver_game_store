@@ -14,7 +14,8 @@
 
 .box{
     border: #191E29;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
+    margin-top: 3.8vh;
     margin-left: 2vh;
     overflow: auto;
 }

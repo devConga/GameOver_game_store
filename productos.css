@@ -45,7 +45,7 @@
       object-fit: cover;
       flex-shrink: 0;
       place-self: top;
-      
+      object-position: top;
       vertical-align: top;
   }
 

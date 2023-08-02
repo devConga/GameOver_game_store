@@ -24,7 +24,8 @@
     height: 32vh;
     width: 100%;
     border-radius: 2.08vh 2.08vh 0 0;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: top left;
     flex-shrink: 0;
     vertical-align: top;
 }

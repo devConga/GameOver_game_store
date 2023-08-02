@@ -1,5 +1,6 @@
 :root{
-    --viewport-height:100vh;
+    --vp-height:100vh;
+    --vp-width: 100vw;
 }
 
 /*@media (min-width: 148.5vh){
@@ -35,7 +36,7 @@ html{
 
 body{
     position: relative;
-    min-height: var(--viewport-height);
+    min-height: var(--vp-height);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -122,15 +123,15 @@ body{
     height:5vh;
     flex-shrink: 0;
     border-radius: 2.5vh;
-    border: 1px solid #01C38D;
-    box-shadow: #03B384 1px 0 15px;
+    border: 0.25vh solid #01C38D;
+    box-shadow: #03B384 0.1vh 0 1.5vh;
 }
 
 .shopping_cart_icon{
     height: 4vh;
     width: 4vh;
     flex-shrink: 0;
-    filter:drop-shadow(1px 0 5px #03B384);
+    filter:drop-shadow(0.1vh 0 0.5vh #03B384);
 }
 .texto_verde{
     color: #05AE81;

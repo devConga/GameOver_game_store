@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    column-gap: 10vw;
     margin: 3vh 0;
     padding: 0 2.91vw 0 2.91vw;
     height: 8.33vh;
@@ -74,6 +75,7 @@
     justify-content: space-between;
     height: 4.5vh;
     width: 35.6vh;
+    font-size: 4.5vh;
     border-radius: 1.11vh;
     background: #FFFFFF;
     align-items: center;
@@ -88,7 +90,8 @@
     font-weight: 600;
     line-height: 100%; /* 10px */
     text-align: center;
-    width: 25%;
+    width: calc(5.93*1em);
+    flex-shrink: 0;
     align-items: center;
   }
 
@@ -101,7 +104,7 @@
     line-height: 100%; /* 10px */
     text-align: left;
     border:none;
-    align-items: center;
+    width: calc(100% - calc(1.18*1em));
   }
 
   .busqueda:focus{
@@ -114,7 +117,7 @@
     border-radius: 0 1.11vh 1.11vh 0;
     background: #14C392;
     height: 100%;
-    width: 15%;
+    width: calc(1.5*1em);
     align-items: center;
 
   }

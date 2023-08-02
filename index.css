@@ -36,15 +36,15 @@
 }
 
 .gamebox_text{
-    font-family: 'Inter';
+    font-family: 'Victor-Mono';
     padding-left: 1.7vh;
-    font-size: 1.94vh;
+    font-size: calc(1.38vh + 0.3rem) ;
 }
 
 .gamebox_price{
     font-family: 'Inter';
     text-align: right;
-    font-size: 1.94vh;
+    font-size: calc(1.38vh + 0.3rem);
     padding: 0 1.7vh 0 0;
 }
 

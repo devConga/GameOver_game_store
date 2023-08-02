@@ -3,17 +3,10 @@
     --vp-width: 100vw;
 }
 
-/*@media (min-width: 148.5vh){
-    body{
-        padding-bottom: 0;
-    }
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(Fonts/VictorMono-Bold.ttf)
 }
-@media (max-width: 148.5vh){
-    body{
-        padding-bottom: 18.26vh;
-    }
-}*/
-
 @font-face {
     font-family: 'Inter-ExtraBold';
     src: url(Fonts/Inter-ExtraBold.ttf);
@@ -136,9 +129,11 @@ body{
 .texto_verde{
     color: #05AE81;
 }
-.fuente_inter{
-    font-family: 'Inter';
+
+.fuente_Victor-Mono{
+    font-family: 'Victor-Mono';
 }
+
 .texto_normal{
     color: white;
     font-family: 'Inter';

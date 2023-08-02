@@ -37,7 +37,7 @@
 .titulo_cartgame{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 2.22vh;
+    font-size: calc(1.39vh + 0.44rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */
@@ -48,7 +48,7 @@
 .descripcion_cartgame{
     color: #FFF;
     font-family: 'Inconsolata';
-    font-size: 1.80vh;
+    font-size: calc(1.38vh + 0.22rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 20px */

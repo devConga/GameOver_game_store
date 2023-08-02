@@ -105,6 +105,7 @@
     text-align: left;
     border:none;
     width: calc(100% - calc(1.18*1em));
+    width: calc(100% - calc((calc(5.93*1em)) + calc(1.5*1em)))
   }
 
   .busqueda:focus{

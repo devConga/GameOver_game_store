@@ -12,11 +12,12 @@
 
 .producto_grande{
     background-color: #191E29;
-    height: 58vh;
-    width: 72vh;
-    max-width: 75vh;
+     height: auto;
+    /*width: 72vh;*/
+    width: clamp(5vh,85%,72vh);
     align-self: center;
     border-radius: 2.08vh;
+    margin-top: 4.5vh;
 }
 
 .producto_grande img{
@@ -77,31 +78,41 @@ margin-left: 2vh
     margin-left: 2vh;
     line-height: 2.5vh;
     font-weight: 0.5vh;
+    
 
 }
-
+.carritoverde{
+    width: 4.5vh;
+    height: auto;
+    filter:drop-shadow(1px 0 5px #03B384);
+    padding-bottom: 1.5vh;
+}
 .btn_carritoproductogrande{
 display: flex;
 flex-direction: row;
-margin-left: 63vh;
+/*margin-left: 63vh;*/
 margin-top: -4.5vh;
+margin-left: auto;
+margin-right: 2vh;
 }
 
 .juegos_relacionados{
     display:flex;
     flex-direction: row;
     overflow: auto;
-    max-width: 70vh;
+    /*max-width: 70vh;*/
     height: 65vh;
     flex-wrap: wrap;
     /*margin: 7.5vh auto 9.72vh -3vh;*/
-    
+    width: clamp(5vh,85%,70vh);
     
 }
 
 .right-align{
-    margin-left: 40vh;
-    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: 3vh;
+    margin-bottom: 1.5vh;
+    vertical-align: middle;
 }
 .container-title{
     padding: 30px;
